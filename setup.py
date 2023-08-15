@@ -10,6 +10,7 @@ setup(
     license='',
     packages=setuptools.find_packages(),
     install_requires=[
+        "poetry-core>=1.0.0",
         "numpy>=1.22.3",
         "pandas>=1.4.2",
         "torch>=1.11.0",
@@ -20,7 +21,7 @@ setup(
         "matplotlib>=3.5.2",
         "jupyter>=1.0.0",
         "tqdm>=4.64.0",
-        "dython==0.6.7",
+        "dython>=0.6.7",
     ],
 
     classifiers=[
