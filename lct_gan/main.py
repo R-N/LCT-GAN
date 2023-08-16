@@ -1,8 +1,8 @@
-from ..models.autoencoder import LatentTAE
-from ..models.gan import LatentGAN
-from ..models.architectures import FCGenerator, FCDiscriminator
-from ..utils.evaluation import get_utility_metrics, stat_sim
-from ..utils.ctabgan_synthesizer import Condvec
+from .models.autoencoder import LatentTAE
+from .models.gan import LatentGAN
+from .models.architectures import FCGenerator, FCDiscriminator
+from .utils.evaluation import get_utility_metrics, stat_sim
+from .utils.ctabgan_synthesizer import Condvec
 from sklearn.preprocessing import StandardScaler
 
 import pandas as pd
