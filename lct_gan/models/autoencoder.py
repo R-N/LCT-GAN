@@ -1,7 +1,7 @@
 import pandas as pd
-from src.utils.transformer import DataTransformer
-from src.utils.data_preparation import DataPrep
-from src.utils.ctabgan_synthesizer import Sampler, Condvec
+from ..utils.transformer import DataTransformer
+from ..utils.data_preparation import DataPrep
+from ..utils.ctabgan_synthesizer import Sampler, Condvec
 
 from tqdm import tqdm
 import torch

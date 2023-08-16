@@ -12,7 +12,7 @@ import time
 
 from torch.autograd import Variable
 from .architectures import FCDiscriminator, FCGenerator
-from src.utils.ctabgan_synthesizer import Condvec, Sampler, cond_loss
+from ..utils.ctabgan_synthesizer import Condvec, Sampler, cond_loss
 
 Tensor = torch.cuda.FloatTensor if torch.cuda.is_available() else torch.FloatTensor
 
